@@ -18,6 +18,23 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "GoHarvest | Agricultural Bussiness|",
 
+  openGraph: {
+    title: "GoHarvest",
+    description: "Bersama GoHarvest, tingkatkan produktivitas pertanian Anda.",
+    url: "https://go-harvest-profile.vercel.app/",
+    siteName: "GoHarvest",
+    images: [
+      {
+        url: "/assets/opengraph-image.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "GoHarvest",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+
   description:
     "GoHarvest, agriculture solutions, agribusiness, farmer empowerment, agri-products, sustainable farming, agri procurement, agricultural technology, farming services, productivity in agriculture, agribusiness support",
 
