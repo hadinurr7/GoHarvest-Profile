@@ -85,7 +85,7 @@ const Services = () => {
         <div className="container mx-auto grid grid-cols-1 items-center gap-10 md:grid-cols-2">
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-gray-800 md:text-4xl">
-              Gabung Sebagai Member di Aplikasi GoHarvest
+              Join as a Member on the GoHarvest Application{" "}
             </h2>
             <div className="flex items-start space-x-4">
               <div className="rounded-full bg-green-100 p-4">
