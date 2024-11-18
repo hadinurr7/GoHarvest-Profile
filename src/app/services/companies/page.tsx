@@ -36,11 +36,11 @@ const Services = () => {
         </div>
         <div className="flex flex-col justify-center px-6 md:px-10">
           <h1 className="pb-4 text-start text-3xl font-bold text-white md:pb-8 md:text-5xl">
-            Get the Quality Agri Products You Need Quickly{" "}
+            Get the Quality Agri Products You Need Quickly
           </h1>
           <p className="text-lg text-white md:text-2xl">
             GoHarvest is a service designed to meet the agricultural product
-            needs of corporations.{" "}
+            needs of corporations.
           </p>
         </div>
       </section>
@@ -197,10 +197,9 @@ const Services = () => {
 
       <div className="flex items-center justify-center bg-green-700 px-4 py-10">
         <div className="container mx-auto flex flex-col items-center justify-between gap-10 lg:flex-row">
-          {/* Kiri: Teks */}
           <div className="max-w-lg text-white">
             <h1 className="mb-4 text-4xl font-bold">
-              Join over 2000+ companies in the GoHarvest ecosystem{" "}
+              Join over 2000+ companies in the GoHarvest ecosystem
             </h1>
             <p className="mb-6">Meet your company's needs with GoHarvest </p>
             <Link

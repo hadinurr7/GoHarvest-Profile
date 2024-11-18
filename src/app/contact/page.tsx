@@ -19,7 +19,6 @@ const ContactUs = () => {
 
   return (
     <div className="container mx-auto px-6 py-16 pt-12 md:px-16 md:pt-20 lg:px-20">
-      {/* Map Section */}
       <div className="mb-12 h-[350px] w-full overflow-hidden rounded-lg shadow-lg lg:h-[400px]">
         <h2 className="text-4xl font-bold text-gray-800 text-center p-6">Find Us</h2>
         <iframe
@@ -32,9 +31,7 @@ const ContactUs = () => {
         ></iframe>
       </div>
 
-      {/* Contact Form and Details */}
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-[2fr,1fr]">
-        {/* Left: Contact Form */}
         <div className="space-y-10 lg:pr-8">
           <h2 className="text-4xl font-bold text-gray-800">Get in Touch</h2>
           <p className="text-gray-600">
@@ -87,7 +84,6 @@ const ContactUs = () => {
           </form>
         </div>
 
-        {/* Right: Contact Details */}
         <div className="space-y-10">
           <h2 className="text-4xl font-bold text-gray-800">Contact Details</h2>
           <p className="text-gray-600">
@@ -95,7 +91,6 @@ const ContactUs = () => {
             visit our office.
           </p>
           <div className="space-y-8">
-            {/* Address Section */}
             <div className="flex items-start space-x-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                 <BiMap className="text-2xl text-green-600" />
@@ -110,7 +105,6 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Email Section */}
             <div className="flex items-start space-x-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                 <BiEnvelope className="text-2xl text-green-600" />
@@ -121,7 +115,6 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Phone Section */}
             <div className="flex items-start space-x-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                 <BiPhone className="text-2xl text-green-600" />

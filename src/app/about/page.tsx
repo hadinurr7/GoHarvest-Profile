@@ -37,7 +37,7 @@ const AboutUs = () => {
             src="/assets/aboutteams.png"
             alt="team"
             fill
-            objectFit="cover"
+            style={{ objectFit: "cover" }}
             className="absolute inset-0"
           />
         </div>
@@ -126,7 +126,7 @@ const AboutUs = () => {
                   src={member.image}
                   alt={`Portrait of ${member.name}`}
                   fill
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   className="rounded-full"
                 />
               </div>
@@ -214,7 +214,7 @@ const AboutUs = () => {
                 src="/assets/Employee.jpeg"
                 alt="Teamwork"
                 fill
-                objectFit="cover"
+                style={{ objectFit: "cover" }}
                 className="rounded-lg shadow-xl"
               />
             </div>
