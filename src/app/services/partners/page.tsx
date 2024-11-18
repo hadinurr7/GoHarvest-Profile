@@ -58,7 +58,6 @@ const Services = () => {
                 key={index}
                 className="transform overflow-hidden rounded-lg bg-white shadow-md transition-transform hover:scale-105"
               >
-                {/* Image container */}
                 <div className="flex h-56 w-full items-center justify-center">
                   <div className="relative h-32 w-28">
                     <Image
@@ -70,7 +69,6 @@ const Services = () => {
                     />
                   </div>
                 </div>
-                {/* Description */}
                 <div className="px-6 pb-6 pt-4">
                   <h3 className="mb-2 text-xl font-semibold text-gray-800">
                     {product.title}
@@ -142,7 +140,6 @@ const Services = () => {
       </section>
 
       <section className="grid grid-cols-1 items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-16 lg:px-20">
-        {/* Bagian Gambar */}
         <div className="flex justify-center">
           <div className="relative h-64 w-64 overflow-hidden rounded-full md:h-96 md:w-96">
             <Image
@@ -154,7 +151,6 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Bagian Konten */}
         <div className="space-y-6">
           <h1 className="text-3xl font-bold text-gray-800 md:text-4xl">
             Visit Us at Harvest GoMart
@@ -222,6 +218,29 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <div className="bg-green-700 py-16">
+        <div className="container mx-auto grid grid-cols-1 items-center gap-8 px-6 md:grid-cols-2 md:px-16 lg:px-20">
+          <div className="space-y-6 text-white">
+            <h1 className="text-3xl font-bold md:text-5xl">
+              Join as a GoHarvest Partner
+            </h1>
+            <p className="text-lg md:text-xl">
+              Get easy access to high-quality agricultural inputs at competitive
+              prices.
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <div className="relative h-64 w-full overflow-hidden rounded-lg md:h-80 lg:h-96">
+              <Image
+                src="/assets/mitra-all.webp"
+                alt="Farmer"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div>
         <h1 className="flex items-center justify-center pt-10 text-center text-3xl font-bold md:text-4xl">
           What do they say about GoHarvest

@@ -11,11 +11,6 @@ const client = createClient({
   accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN!,
 });
 
-console.log("Contentful Space ID:", process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID);
-console.log("Contentful Access Token:", process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN);
-console.log("Contentful Environment ID:", process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT_ID);
-
-
 export const getEntries = async () => {
   try {
     const response = await client.getEntries({

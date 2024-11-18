@@ -55,10 +55,10 @@ const Footer = () => {
         <div>
           <h2 className="mb-4 text-xl font-semibold">Solutions</h2>
           <div className="flex flex-col gap-2">
-            <Link href="#" className="text-sm hover:underline md:text-base">
+            <Link href="/services/companies" className="text-sm hover:underline md:text-base">
               For Companies
             </Link>
-            <Link href="#" className="text-sm hover:underline md:text-base">
+            <Link href="/services/partners" className="text-sm hover:underline md:text-base">
               For Farmers & Partners
             </Link>
           </div>
